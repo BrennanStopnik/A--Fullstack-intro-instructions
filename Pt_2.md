@@ -13,7 +13,7 @@
 	- limit, initialized to 10
 	- page, initialized to 1
 	- sortBy, initialized to ""
-	- order, initialized to ""
+	- order, initialized to ""limit
 - In the JSX of ```<OptionBar/>```,
 	- Add a label called Limit and a type="number" input field that sets the limit state variable. Additionally, this input field should have its value attribute set to limit.
 	- Add a label called Page and a type="number" input field that sets the page state variable. Additionally, this input field should have its value attribute set to page.
